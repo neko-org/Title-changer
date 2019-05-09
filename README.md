@@ -1,4 +1,4 @@
-# Title
+# Title-Switcher
 A tera-proxy module that changes your title server side.<br/><br/>
 
 ## Note
@@ -9,3 +9,7 @@ A tera-proxy module that changes your title server side.<br/><br/>
 
 1. `/proxy title <insert id here>`
 2. You can get the Title ID from [HERE](http://teradatabase.net/us/achievements/reward/rtitles/).
+
+## Credits
+* Original Author: Eeemj
+* Updated for new Patch: Nekonekoo
