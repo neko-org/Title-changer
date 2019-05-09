@@ -2,7 +2,7 @@ const Command = require('command');
 const { protocol } = require('tera-data-parser');
 
 if (!protocol.messages.has('S_APPLY_TITLE')) {
-  protocol.messages.set('S_APPLY_TITLE', new Map().set(3, [
+  protocol.messages.set('S_APPLY_TITLE', new Map().set(1, [
     ['id', 'int32'],
   ]));
 }
