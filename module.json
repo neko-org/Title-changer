@@ -1,5 +1,10 @@
 {
-    "disableAutoUpdate": false,
-    "name": "title",
-    "description": "Description goes here."
+	"disableAutoUpdate": false,
+	"name": "Title-Switcher",
+	"author": "Eemj | Nekonekoo",
+	"description": "A tera-proxy module that changes your title server side..",
+	"options": {
+		"niceName": "Title-Switcher"
+	},
+	"servers": ["https://raw.githubusercontent.com/PatrickSantoZZ/Title-Switcher/master/"],
 }

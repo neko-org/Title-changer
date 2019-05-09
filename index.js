@@ -1,16 +1,18 @@
-const Command = require('command');
-const { protocol } = require('tera-data-parser');
+const command = require('command');
+const pars = require('tera-data-parser');
+const command = command(mod);
 
-if (!protocol.messages.has('S_APPLY_TITLE')) {
-  protocol.messages.set('S_APPLY_TITLE', new Map().set(1, [
-    ['id', 'int32'],
-  ]));
-}
 
-module.exports = function Title(dispatch) {
-  const command = Command(dispatch);
+module.exports = function Title(mod) {
 
-  command.add('title', (id) => {
-    if (id) dispatch.toServer('S_APPLY_TITLE', 3, { id });
-  });
+	mod.hook("S_APPLY_TITLE", 3 , (event) =>  {
+	
+		));
+
+		command.add('title', (id) => {
+		if (id) mod.toServer('S_APPLY_TITLE', 3, { id });
+	});
+	]));
+
+
 };
